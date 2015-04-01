@@ -1,0 +1,13 @@
+language: ruby
+
+gemfile:
+  - gemfiles/rails3
+  - gemfiles/rails4
+  - gemfiles/rails41
+  - gemfiles/rails42
+
+sudo: false
+
+cache: bundler
+
+script: bundle exec rspec spec

@@ -1,0 +1,1 @@
+require 'hungryform/rails'
