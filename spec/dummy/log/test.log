@@ -4307,3 +4307,269 @@ Completed 200 OK in 3ms (Views: 0.8ms)
   Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
   Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
   Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+DEPRECATION WARNING: You didn't set `secret_key_base`. Read the upgrade documentation to learn more about this new config option. (called from service at /home/andrey/.rbenv/versions/2.1.1/lib/ruby/2.1.0/webrick/httpserver.rb:138)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (0.8ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (3.4ms)
+  Rendered inline template (16.5ms)
+Completed 200 OK in 25ms (Views: 19.4ms)
+Started GET "/assets/hungryform.css" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Started GET "/assets/hungryform.js" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Started GET "/assets/jquery-2.1.3.min.js" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Started POST "/hungryform/first" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"8b1pQ7DKB7e2GhTuWWs0vPSRYCkwJorEPRPjE4OFuA0BJOtyA7HMMEN3MzhkyMw0IuzsX00m3Gd4lQ7NgdIIxA==", "form_action"=>"next", "first_select_field"=>"second_page_visible", "first_textarea"=>"", "page"=>"first"}
+Redirected to http://127.0.0.1:37800/hungryform/second
+Completed 302 Found in 4ms
+Started GET "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.4ms)
+  Rendered inline template (2.6ms)
+Completed 200 OK in 5ms (Views: 2.8ms)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:01 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (0.8ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (4.0ms)
+  Rendered inline template (5.9ms)
+Completed 200 OK in 9ms (Views: 6.2ms)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (2.4ms)
+  Rendered inline template (3.8ms)
+Completed 200 OK in 7ms (Views: 4.0ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (3.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (2.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_select_field.html.erb (0.7ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+Started GET "/hungryform/third" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"third"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.5ms)
+  Rendered inline template (2.8ms)
+Completed 200 OK in 6ms (Views: 3.2ms)
+Started POST "/hungryform/third" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yMU8gs3rS+2w78FUHZilhhErbpal4hmKBDcalV/mpGgCh/21Kmss4LTrGje15IFSyM/jRVRH//iUbtstqr0eeQ==", "form_action"=>"submit", "third_field3"=>"field3 value", "page"=>"third"}
+Redirected to http://127.0.0.1:37800/hungryform/first?errors=true
+Completed 302 Found in 4ms
+Started GET "/hungryform/first?errors=true" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"errors"=>"true", "page"=>"first"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.0ms)
+  Rendered inline template (2.6ms)
+Completed 200 OK in 4ms (Views: 2.9ms)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.6ms)
+  Rendered inline template (3.8ms)
+Completed 200 OK in 6ms (Views: 4.2ms)
+Started POST "/hungryform/first" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"TUNvPVsF+YqN2Kl1wXZapU6WZvvvNiEvgT6FAgrYzAeRvI3BV5Fs4GU+a07XHhzIGZKp0rA0GzR6pT5FieR+ag==", "form_action"=>"next", "first_field1"=>"field1 value", "page"=>"first"}
+Redirected to http://127.0.0.1:37800/hungryform/second
+Completed 302 Found in 3ms
+Started GET "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (0.9ms)
+  Rendered inline template (23.6ms)
+Completed 200 OK in 25ms (Views: 23.8ms)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:02 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.8ms)
+  Rendered inline template (4.2ms)
+Completed 200 OK in 7ms (Views: 4.7ms)
+Started GET "/hungryform" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#show as HTML
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.0ms)
+  Rendered inline template (2.7ms)
+Completed 200 OK in 5ms (Views: 3.0ms)
+Started POST "/hungryform/first" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"WmA4aGNyvy3Ayx6n4Ti1Swb2z0lVN29RB8DvGR6StZVPmrj1apXFUYCHIz8u6ut23yw8Sde7kfTE+e6o+Af40g==", "form_action"=>"next", "first_field1"=>"", "page"=>"first"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.6ms)
+  Rendered inline template (3.0ms)
+Completed 200 OK in 5ms (Views: 3.3ms)
+Started GET "/hungryform/first" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"first"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.1ms)
+  Rendered inline template (2.4ms)
+Completed 200 OK in 4ms (Views: 2.6ms)
+Started POST "/hungryform/first" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"iiX0QVIcWhaJiefsCtbueXQH5xFyLm8dUxR7TYBF6yRgbt8VdkgjSUp7xknZYllF3WqnYmPYRdlBBRy4nVArOQ==", "form_action"=>"next", "first_field1"=>"field1 value", "page"=>"first"}
+Redirected to http://127.0.0.1:37800/hungryform/second
+Completed 302 Found in 2ms
+Started GET "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (0.8ms)
+  Rendered inline template (1.7ms)
+Completed 200 OK in 3ms (Views: 1.9ms)
+Started POST "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"m05pxj8ZoNg9Uf5Ys6PHYVI8ZNLjjp2+kt8reRZQyDBxBUKSG03Zh/6j3/1gF3Bd+1EkofJ4t3qAzkyMC0UILQ==", "form_action"=>"next", "second_field2"=>"field2 value", "page"=>"second"}
+Redirected to http://127.0.0.1:37800/hungryform/third
+Completed 302 Found in 2ms
+Started GET "/hungryform/third" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"third"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.1ms)
+  Rendered inline template (2.5ms)
+Completed 200 OK in 5ms (Views: 2.8ms)
+Started POST "/hungryform/third" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"9g0te8j6MpA7+ep4FzWl2yotlhUx8msy+Dkl3qm+s/IcRgYv7K5Lz/gLy93EgRLng0DWZiAEQfbqKEIrtKtz7w==", "form_action"=>"submit", "third_field3"=>"field3 value", "page"=>"third"}
+Redirected to http://127.0.0.1:37800/hungryform/submitted
+Completed 302 Found in 2ms
+Started GET "/hungryform/submitted" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#submitted as HTML
+  Rendered inline template (0.5ms)
+Completed 200 OK in 3ms (Views: 0.8ms)
+Started GET "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:03 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.8ms)
+  Rendered inline template (4.1ms)
+Completed 200 OK in 6ms (Views: 4.5ms)
+Started POST "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:04 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"LqmARjozs47Jgn/nVRE68gc2TZSnpyOnSskyd2UcnTo0s+itCc6KJAD4VM6wYrfFJVEXZY28Vz8Zf1i1VFu1Uw==", "form_action"=>"next", "second_field2"=>"", "page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (2.2ms)
+  Rendered inline template (4.1ms)
+Completed 200 OK in 7ms (Views: 4.4ms)
+Started GET "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:04 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"second"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (0.9ms)
+  Rendered inline template (1.8ms)
+Completed 200 OK in 3ms (Views: 2.0ms)
+Started POST "/hungryform/second" for 127.0.0.1 at 2015-04-01 14:36:04 +1100
+Processing by HungryFormController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"1QwW1cvoleePE1nnYs/QkBQMWRhVHZSPHpq+eecchzluU067SAouEzHNGJ04b2M6zpwnLKdLAE3bb3DLOvv9qQ==", "form_action"=>"next", "second_field2"=>"field2 value", "page"=>"second"}
+Redirected to http://127.0.0.1:37800/hungryform/third
+Completed 302 Found in 2ms
+Started GET "/hungryform/third" for 127.0.0.1 at 2015-04-01 14:36:04 +1100
+Processing by HungryFormController#show as HTML
+  Parameters: {"page"=>"third"}
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.2ms)
+  Rendered inline template (2.8ms)
+Completed 200 OK in 5ms (Views: 3.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (1.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.8ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.7ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_area.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_html.html.erb (0.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.0ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (5.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (5.7ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.0ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (6.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.0ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (5.6ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.0ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (5.8ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (5.7ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.5ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (2.3ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_group.html.erb (6.2ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (2.1ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_text_field.html.erb (0.4ms)
+  Rendered /var/www/hungryform-rails/app/views/hungryform/_form.html.erb (1.8ms)
