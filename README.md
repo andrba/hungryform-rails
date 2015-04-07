@@ -1,6 +1,6 @@
 #Hungryform Rails [![Build Status](https://travis-ci.org/andrba/hungryform-rails.svg?branch=master)](https://travis-ci.org/andrba/hungryform-rails)
 
-This gem is an adaptor between the Hungryform gem and Rails. 
+This gem is an adaptor between the HungryForm gem and Rails. 
 
 ##Installation:
 
