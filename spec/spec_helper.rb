@@ -1,8 +1,7 @@
 ENV["RAILS_ENV"] = 'test'
 
-Bundler.require
-require "hungryform-rails"
-
+require 'rails'
+require 'hungryform-rails'
 require 'dummy/app'
 require 'rspec/rails'
 require 'capybara/rails'

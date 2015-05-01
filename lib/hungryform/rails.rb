@@ -4,9 +4,6 @@ module HungryForm
 end
 
 require 'hungryform'
-
-require 'rails'
-
 require 'hungryform/rails/version'
 require 'hungryform/rails/railtie'
 require 'hungryform/rails/engine'
