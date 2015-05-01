@@ -6,7 +6,7 @@ This gem is an adaptor between the HungryForm gem and Rails.
 
 Add the hungryform gem to your Gemfile:
 ```ruby
-gem "hungryform"
+gem "hungryform-rails"
 ```
 
 Add the Hungryform require to your application.js:
