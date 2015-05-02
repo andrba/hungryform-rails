@@ -2,6 +2,8 @@
 
 This gem is an adaptor between the [HungryForm](http://github.com/andrba/hungryform) gem and Rails. 
 
+![image](https://cloud.githubusercontent.com/assets/2174682/7443144/f07081bc-f179-11e4-921d-cbb4ded02776.png)
+
 ##Installation:
 
 Add the hungryform gem to your Gemfile:
