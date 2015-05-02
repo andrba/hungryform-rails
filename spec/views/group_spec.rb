@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'rendering a group', :if => defined?(Rails) do
+describe 'rendering a group' do
   let(:attributes) { {} }
   let(:resolver) { HungryForm::Resolver.new }
   let(:group) { HungryForm::Elements::Group.new(:group, nil, resolver, visible: true) {} }

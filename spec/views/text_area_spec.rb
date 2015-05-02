@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'rendering text area', :if => defined?(Rails) do
+describe 'rendering text area' do
   let(:attributes) { {} }
   let(:resolver) { HungryForm::Resolver.new }
   let(:group) { HungryForm::Elements::Group.new(:group, nil, resolver, visible: true) {} }
@@ -24,12 +24,5 @@ describe 'rendering text area', :if => defined?(Rails) do
     attributes[:value] = 'default value'
     render render_params
     expect(rendered).to match /<textarea.*default value/m
-  end
-
-  # As a class is gonna be in the wrapper
-  it 'does not have a textarea with a class attribute' do
-    attributes[:class] = 'my_class'
-    render render_params
-    expect(rendered).not_to match /<textarea.*class="my_class"/
   end
 end

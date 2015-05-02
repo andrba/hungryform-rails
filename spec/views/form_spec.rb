@@ -1,6 +1,6 @@
 require 'spec_helper'
 
-describe 'rendering a form', :if => defined?(Rails) do
+describe 'rendering a form' do
   let(:form_params) { {} }
   let(:form) { 
     HungryForm::Form.new form_params do

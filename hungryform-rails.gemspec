@@ -21,8 +21,8 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = '>= 2.0.0'
   
-  spec.add_dependency 'hungryform',   '~> 0.0', '>= 0.0.6'
-  spec.add_dependency 'rails',        '>= 4.2.1'
+  spec.add_dependency 'hungryform',   '~> 0.0', '>= 0.0.9'
+  spec.add_dependency 'rails',        '>= 3.2.1'
 
   spec.add_development_dependency "rspec",       '~> 3.0'
   spec.add_development_dependency "rspec-rails", '~> 3.0'
