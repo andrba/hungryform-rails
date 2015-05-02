@@ -25,10 +25,9 @@ RSpec.shared_examples 'rendered active element' do
     end
   end
 
-    # As a class is gonna be in the wrapper
-  it 'does not have an input with a class attribute' do
-    attributes[:class] = 'my_class'
+  it 'has a wrapper class attribute in the div wrapper' do
+    attributes[:wrapper_class] = 'my_class'
     render render_params
-    expect(rendered).not_to match /<input.*class="my_class"/
+    expect(rendered).to match /<div.*class="my_class"/
   end
 end
