@@ -7,8 +7,8 @@ module HungryForm
         options[:data][:rel] ||= form_rel(form)
         options[:class] = [options[:class], "hungryform"].compact.join(' ')
 
-        views_prefix = options.delete(:views_prefix) || HungryForm.configuration.rails.elements_templates
-
+        views_prefix = options.delete(:elements_templates) || HungryForm.configuration.rails.elements_templates
+        
         form_tag('', options) do
           render partial: "#{views_prefix}/form", locals: {
             form: form,
@@ -51,6 +51,7 @@ module HungryForm
 
        # Builds link_to params except for the link's name
       def link_params(form, options, action_options = {})
+        options = options.dup
         method = options.delete(:method) || 'get'
         params = clean_params(form, options.delete(:params))
 

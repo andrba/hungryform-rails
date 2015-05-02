@@ -4,14 +4,22 @@ module HungryForm
 
       module Configuration
         attr_accessor :rails
+
+        def self.extended(base)
+          base.rails = ActiveSupport::OrderedOptions.new
+
+          base.rails.elements_templates = 'hungryform'
+          base.rails.error_class = 'invalid'
+
+          [:next_button_class, :prev_button_class, :submit_button_class].each do |button|
+            base.rails.send(button, '')
+          end
+        end
       end
 
       initializer 'hungryform', before: :load_config_initializers do
         HungryForm::Elements::Base::Element.send :include, Renderable
-
         HungryForm.configuration.extend Configuration
-        HungryForm.configuration.rails = ActiveSupport::OrderedOptions.new
-        HungryForm.configuration.rails.elements_templates = 'hungryform'
       end
 
       initializer 'active_support' do

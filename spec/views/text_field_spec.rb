@@ -14,6 +14,7 @@ describe 'rendering text field' do
 
   it_behaves_like 'it is wrapped in a div'
   it_behaves_like 'rendered active element'
+  it_behaves_like 'labeled active element'
 
   it 'has an input' do
     render render_params
