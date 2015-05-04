@@ -1,7 +1,9 @@
 module HungryForm
   module Rails
     class Railtie < ::Rails::Railtie
-
+      # Configuration module on top of the HungryForm configuration
+      # Creates a "rails" accessor that contains all the rails
+      # specific configuration parameters used in this gem
       module Configuration
         attr_accessor :rails
 

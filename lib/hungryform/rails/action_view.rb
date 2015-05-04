@@ -1,14 +1,16 @@
 module HungryForm
   module Rails
+    # View helpers
     module ActionView
       # Render a form
       def hungry_form_for(form, options = {})
         options[:data] ||= {}
         options[:data][:rel] ||= form_rel(form)
-        options[:class] = [options[:class], "hungryform"].compact.join(' ')
+        options[:class] = [options[:class], 'hungryform'].compact.join(' ')
 
-        views_prefix = options.delete(:elements_templates) || HungryForm.configuration.rails.elements_templates
-        
+        views_prefix = options.delete(:elements_templates) ||
+                       HungryForm.configuration.rails.elements_templates
+
         form_tag('', options) do
           render partial: "#{views_prefix}/form", locals: {
             form: form,
@@ -36,9 +38,13 @@ module HungryForm
       def hungry_link_to_submit(form, name, options = {}, &block)
         params = clean_params(form, options.delete(:params))
 
-        link_to name, url_for(params), options.reverse_merge(
-          data: { form_method: :post, form_action: :submit, rel: form_rel(form) }
-        ), &block
+        link_to(name, url_for(params), options.reverse_merge(
+          data: { 
+            form_method: :post,
+            form_action: :submit,
+            rel: form_rel(form)
+          }
+        ), &block)
       end
 
       private
@@ -49,13 +55,17 @@ module HungryForm
         "hungry-form-#{form.__id__}"
       end
 
-       # Builds link_to params except for the link's name
+      # Builds link_to params except for the link's name
       def link_params(form, options, action_options = {})
         options = options.dup
         method = options.delete(:method) || 'get'
         params = clean_params(form, options.delete(:params))
 
-        params[:page] = method.to_s == 'get' ? get_page(form, action_options) : form.current_page.name
+        if method.to_s == 'get'
+          params[:page] = get_page(form, action_options)
+        else
+          params[:page] = form.current_page.name
+        end
 
         options.reverse_merge!(
           data: {
