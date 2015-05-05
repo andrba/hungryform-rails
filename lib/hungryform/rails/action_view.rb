@@ -20,22 +20,22 @@ module HungryForm
       end
 
       # Render a link to the next page
-      def hungry_link_to_next_page(form, name, options = {}, &block)
+      def hungry_link_to_next_page(form, name, **options, &block)
         link_to name, *link_params(form, options, action: :next), &block
       end
 
       # Render a link to the previous page
-      def hungry_link_to_prev_page(form, name, options = {}, &block)
+      def hungry_link_to_prev_page(form, name, **options, &block)
         link_to name, *link_params(form, options, action: :prev), &block
       end
 
       # Render a link to a provided page
-      def hungry_link_to_page(form, page, options = {}, &block)
+      def hungry_link_to_page(form, page, **options, &block)
         link_to page.label, *link_params(form, options, action: :page, page: page), &block
       end
 
       # Render a link that submits the form
-      def hungry_link_to_submit(form, name, options = {}, &block)
+      def hungry_link_to_submit(form, name, **options, &block)
         params = clean_params(form, options.delete(:params))
 
         link_to(name, url_for(params), options.reverse_merge(
